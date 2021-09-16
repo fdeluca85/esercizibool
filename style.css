@@ -1,0 +1,73 @@
+body {
+  background-image: url("background.jpg");
+  background-size: cover;
+  color:white;
+  font-family: 'Ubuntu', sans-serif;
+}
+.container {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: relative;
+  margin: auto;
+  margin-top: 50px;
+  width: 1200px;
+  height: 800px;
+  border-radius: 15px;
+}
+.logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 80px;
+  width: 20%;
+}
+.logo-txt{
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color:#00dd00;
+}
+.navbar{
+  display: block;
+  background-color:#00dd00;
+  text-align: center;
+  width: 80%;
+  height: 30px;
+  margin: auto;
+  margin-bottom: 20px;
+  padding:5px;
+}
+.informazioni{
+  display: block;
+  text-align: left;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.nome{
+  font-weight: bold;
+  font-size: 20px;
+}
+.via, .carica{
+  margin-top: 10px;
+  display: block;
+}
+.via:before{
+  content: "\21A6"; /* icona freccia */
+}
+.barra-info1, .barra-info2, .barra-info3{
+  display: block;
+  height:20px;
+  border-radius: 3px;
+}
+.barra-info1{
+  background-color: #f5b453;
+  width: 40%;
+}
+.barra-info2{
+  background-color: #1ec31e;
+  width: 60%;
+}
+.barra-info3{
+  background-color: #be4141;
+  width: 20%;
+}
